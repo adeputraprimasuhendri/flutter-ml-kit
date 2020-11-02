@@ -1,16 +1,10 @@
-# flutter_ml_kit
+# Flutter ML Kit
 
-FLutter ML Kit
+Flutter Text Recognize with ML Kit
 
-## Getting Started
+## Intro
 
-This project is a starting point for a Flutter application.
+Pada acara Google I/O 18 ada salah satu teknologi di Machine Learning yang diperkenalkan oleh Google yaitu ML Kit.
 
-A few resources to get you started if this is your first Flutter project:
+ML Kit merupakan salah satu fungsi dari Firebase yang berfokus pada machine learning. Hanya saja penggunaannya lebih sederhana sehingga kita tidak sulit untuk menggunakannya. Salah satu diantara dari fitur machine learning-nya adalah text recognition.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
