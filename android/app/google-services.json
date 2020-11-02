@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "102210564446",
+    "firebase_url": "https://vaksin-kasehat.firebaseio.com",
+    "project_id": "vaksin-kasehat",
+    "storage_bucket": "vaksin-kasehat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102210564446:android:53ccb49c7ea4a0486e9fcf",
+        "android_client_info": {
+          "package_name": "com.appsworkspace.flutter_ml_kit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102210564446-iq2pdbcei3nb9q2lvldlekldvkh0p41o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXMhCEwjmUwicdVFLUe29qo-rUXz-lUC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102210564446-iq2pdbcei3nb9q2lvldlekldvkh0p41o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "102210564446-2vbgqgfkvhsi40r16m4l8ujevfo1us4f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kasehat.vaksin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102210564446:android:c45acdfbe9b25a126e9fcf",
+        "android_client_info": {
+          "package_name": "com.kasehat.vaksin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102210564446-iq2pdbcei3nb9q2lvldlekldvkh0p41o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXMhCEwjmUwicdVFLUe29qo-rUXz-lUC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102210564446-iq2pdbcei3nb9q2lvldlekldvkh0p41o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "102210564446-2vbgqgfkvhsi40r16m4l8ujevfo1us4f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kasehat.vaksin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
