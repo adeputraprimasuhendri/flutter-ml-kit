@@ -1,4 +1,4 @@
-# Flutter ML Kit
+# Flutter ML Kit - Text Recognition
 
 Flutter Text Recognize with ML Kit
 

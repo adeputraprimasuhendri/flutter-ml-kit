@@ -23,6 +23,15 @@ class _MLScreenState extends State<MLScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                provider.fileImage != null
+                    ? Image.file(
+                        provider.fileImage,
+                        fit: BoxFit.cover,
+                      )
+                    : Container(),
+                SizedBox(
+                  height: 20,
+                ),
                 Center(
                   child: provider.isLoading
                       ? CircularProgressIndicator()
