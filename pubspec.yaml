@@ -16,8 +16,11 @@ dependencies:
 
   firebase_core: ^0.4.5
   firebase_ml_vision: ^0.9.4
+  firebase_auth:
   image_picker: ^0.6.7+3
   provider:
+  pin_input_text_field:
+  fluttertoast:
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +29,11 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: fonts/Manrope-Light.ttf
+        - asset: fonts/Manrope-Bold.ttf
+        - asset: fonts/Manrope-Regular.ttf

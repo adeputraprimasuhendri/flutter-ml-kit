@@ -17,27 +17,29 @@ class _MLScreenState extends State<MLScreen> {
         appBar: AppBar(
           title: Text('Flutter ML Kit'),
         ),
-        body: SingleChildScrollView(
-          child: Container(
-            padding: EdgeInsets.all(18),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                provider.fileImage != null
-                    ? Image.file(
-                        provider.fileImage,
-                        fit: BoxFit.cover,
-                      )
-                    : Container(),
-                SizedBox(
-                  height: 20,
-                ),
-                Center(
-                  child: provider.isLoading
-                      ? CircularProgressIndicator()
-                      : Text(provider.result),
-                ),
-              ],
+        body: SafeArea(
+          child: SingleChildScrollView(
+            child: Container(
+              padding: EdgeInsets.all(18),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  provider.fileImage != null
+                      ? Image.file(
+                          provider.fileImage,
+                          fit: BoxFit.cover,
+                        )
+                      : Container(),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Center(
+                    child: provider.isLoading
+                        ? CircularProgressIndicator()
+                        : Text(provider.result),
+                  ),
+                ],
+              ),
             ),
           ),
         ),

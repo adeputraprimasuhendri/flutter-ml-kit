@@ -7,9 +7,11 @@ import 'package:flutter_ml_kit/services/image_service.dart';
 class MLProvider extends ChangeNotifier {
   final MLService _MLService = MLService();
   final IMGService _IMGService = IMGService();
+
   File fileImage;
   bool isLoading = false;
   String result = 'Wait';
+
   browseImage() async {
     try {
       var getImage = await _IMGService.pickImage();
